@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculater</title>
+    <link rel="stylesheet" href="code.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=DynaPuff" rel="stylesheet">
+    <script src="code.js">
+    </script>
+    
+</head>
+<body>
+    <div class="calculator">     
+        <div class="calculation">
+            <input id="display" type="text" placeholder="0"  readonly >
+        </div>
+        <div class="buttons">
+            <div class="row">
+                <button onclick="clearscreen()"class="clear">C</button>
+                
+                <button onclick="operaterclicker('+')"class="dark">+</button>
+                <button onclick="operaterclicker('-')"class="dark">-</button> 
+                
+            </div>
+            <div class="siderow">
+                <button onclick="operaterclicker('*')"class="dark">x </button>
+                <button onclick="operaterclicker('/')"class="dark">/ </button>
+                <button onclick ="equlclick()"class="unique">=</button>
+                
+            </div>
+            <div class="row1">
+                <button onclick="btnclick(7)" class="btn-white">7</button>
+                <button onclick="btnclick(8)"class="btn-white">8</button>
+                <button onclick="btnclick(9)"class="btn-white">9</button>
+               
+                
+            </div>
+            
+            <div class="row2">
+                <button onclick="btnclick(4)"class="btn-white">4</button>
+                <button onclick="btnclick(5)"class="btn-white">5</button>
+                <button onclick="btnclick(6)"class="btn-white">6</button>
+                
+                
+            </div>
+            
+            <div class="row3">
+                <button onclick="btnclick(1)"class="btn-white">1</button>
+                <button onclick="btnclick(2)"class="btn-white">2</button>
+                <button onclick="btnclick(3)"class="btn-white">3</button>
+                
+            </div>
+            <div class="row4">
+                <button onclick="btnclick('.')"class="btn-white">.</button>
+                <button onclick="btnclick(0)"class="btn-white">0</button>
+                <button onclick="operaterclicker('del')"class="delete">⌫</button>
+               
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>

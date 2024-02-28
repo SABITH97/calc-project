@@ -1,0 +1,249 @@
+
+    /*setting up all over font for the calcolater*/
+
+*{
+    font-family: 'DynaPuff', sans-serif;
+}
+
+/*making the fatures for the calculater*/
+
+body{
+    background-color:#DDE1E7 ;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/*making frame for the calculater*/
+
+.calculator
+{
+  
+   background-image:#DDE1E7;
+   width: 340px; ;
+   height: 530px;
+   border-radius:15px;
+   box-shadow: -3px -3px 15px #4f5454 , 2px  2px 1px #414243 ;
+
+ 
+              
+   
+}
+
+/*making the display part of calculater*/
+
+#display {
+    
+    width: 300px;
+    height: 100px;
+    color:#4c4c4d;
+    font-size: 70px;
+    padding: 0 20px;
+    display: block;
+    text-align:right;
+    border-radius: 15px;
+    background-color: #DDE1E7;
+    border: none;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+
+}
+::placeholder{
+    color: #4c4c4d;
+    font-size: 70px;
+}
+
+/*setting up the rows*/
+
+.row{
+    padding: 20px 0px ;
+    display: block;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+    width: 255px;
+    float:left;
+    
+    
+}
+.row1{
+    padding: 20px 0px ;
+    display: block;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+    width: 255px;
+    float:left;
+    
+    
+}
+.row2{
+    padding: 20px 0px ;
+    display: block;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+    width: 255px;
+    float:left;
+
+    
+    
+}
+.row3{
+    padding: 20px 0px ;
+    display: block;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+    width: 255px;
+    float:left;
+    
+    
+}
+.row4{
+    padding: 20px 0px ;
+    display: block;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+    width: 255px;
+    float:left;
+    
+    
+}
+.siderow{
+    padding:20px 0px;
+    background:transparent;
+    width: 85px;
+    height: 350px;
+    float: right;
+}
+
+/*setting up button for the calculater*/
+
+.button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    background-color: #DDE1E7;
+    color: #4c4c4d;
+    font-size: 30px;
+    
+}
+.row button{
+ margin: 6.2px;
+ flex-grow: 1;
+ border: none;
+ color: #373030 ;
+ width: 70px;
+ height: 70px;
+ font-size:xx-large;
+ 
+}
+.row1 button{
+    margin: 6.2px;
+    flex-grow: 1;
+    border: none;
+    color: #373030 ;
+    width: 70px;
+    height: 70px;
+    font-size:xx-large;
+   }
+.row2 button{
+    margin: 6.2px;
+    flex-grow: 1;
+    border: none;
+    color: #373030 ;
+    width: 70px;
+    height: 70px;
+    font-size:xx-large;
+   }
+.row3 button{
+    margin: 6.2px;
+    flex-grow: 1;
+    border: none;
+    color: #373030 ;
+    width: 70px;
+    height: 70px;
+    font-size:xx-large;
+   }
+.row4 button{
+    margin: 6.2px;
+    flex-grow: 1;
+    border: none;
+    color: #373030 ;
+    width: 70px;
+    height: 70px;
+    font-size:xx-large;
+   }
+/*other button in the side row like mul,diviede*/
+
+.siderow button{
+    background-color: rgb(15, 14, 14);
+    border-radius: 20px;
+    color: #f7f7f7 !important;
+    width: 70px;
+    height: 70px;
+    margin: 6.2px;
+    flex-grow: 1;
+    font-size:xx-large;
+    border: none;
+}
+/*for the equel button*/
+
+.siderow .unique {
+    height:229px !important ;
+    background-color:rgb(8, 8, 8);
+
+
+}
+
+
+
+.btn-white{
+    background-color: #DDE1E7 ;
+    box-shadow: -3px -3px 15px #FBFCFC , 2px  2px 2px #414243 ;
+    border-radius: 20px;
+}
+
+/*its for +-  */
+
+.dark{
+    background-color: rgb(17, 16, 16);
+    border-radius: 20px;
+    color: #fff !important;
+}
+
+/* for clear button*/
+
+.clear{
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    color: #fff !important;
+}
+
+/* for delete button*/
+
+.delete{
+    background-color: #DDE1E7 ;
+    box-shadow: -3px -3px 15px #FBFCFC , 2px  2px 2px #414243 ;
+    border-radius: 20px;
+}
+/* this code for button hovering*/
+button{
+     transition-duration: 0.5s; 
+}
+button:hover{
+
+ background-color: rgba(49, 52, 52, 0.5);
+}
+.siderow button:hover{
+    background-color: rgba(49, 52, 52, 0.5);
+}
+.siderow button{
+    transition-duration: 0.5s; 
+}
+    
